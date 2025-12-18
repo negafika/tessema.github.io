@@ -19,7 +19,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
-  z-index: -1; /* behind all other layers */
+  z-index: 0; /* behind all other layers */
 }
 
 
@@ -32,7 +32,7 @@
   height: 800px;
   background: url('assets/images/noise.gif') repeat;
   opacity: 1;
-  z-index: 0;
+  z-index: -1;
 }
 
 /* Lines overlay */
